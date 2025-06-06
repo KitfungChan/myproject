@@ -1,5 +1,6 @@
 
 def pipeline():
+    """Image simulation pipeline."""
 
-    add_noise()
     convolve_psf()
+    add_noise()
